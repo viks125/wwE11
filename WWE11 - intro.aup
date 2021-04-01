@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="WWE11 - intro_data" version="1.3.0" audacityversion="2.2.2" sel0="6.7214484264" sel1="6.7214484264" vpos="128" h="0.0000000000" zoom="10.1168670331" rate="44100.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="WWE11 - intro_data" version="1.3.0" audacityversion="2.2.2" sel0="17.7607920068" sel1="17.7607920068" vpos="128" h="0.0000000000" zoom="6.1371137029" rate="44100.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Vineet" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="31.34335601" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="1171098">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1050883">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000356.au" len="134778" min="-0.655914" max="0.851562" rms="0.107678"/>
 				</waveblock>
@@ -18,26 +18,23 @@
 					<simpleblockfile filename="e00008c1.au" len="214995" min="-0.70932" max="0.862213" rms="0.113913"/>
 				</waveblock>
 				<waveblock start="699546">
-					<simpleblockfile filename="e000025e.au" len="178221" min="-0.804199" max="0.845795" rms="0.108935"/>
+					<simpleblockfile filename="e0000e3b.au" len="196145" min="-0.804199" max="0.845795" rms="0.118685"/>
 				</waveblock>
-				<waveblock start="877767">
-					<simpleblockfile filename="e0000582.au" len="153437" min="-0.57785" max="0.782654" rms="0.088348"/>
-				</waveblock>
-				<waveblock start="1031204">
-					<simpleblockfile filename="e0000f37.au" len="139894" min="-0.543121" max="0.721893" rms="0.111175"/>
+				<waveblock start="895691">
+					<simpleblockfile filename="e0000bb3.au" len="155192" min="-0.57785" max="0.782654" rms="0.121173"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
 	<labeltrack name="Label Track" numlabels="7" height="73" minimized="0" isSelected="0">
-		<label t="31.3433560091" t1="67.9401659335" title="intro remarks"/>
+		<label t="31.3433560091" t1="64.1834403341" title="intro remarks"/>
 		<label t="44.6743676182" t1="45.3237526182" title="lag"/>
 		<label t="45.2498296182" t1="47.1375766182" title="speed up"/>
 		<label t="51.7387486182" t1="52.3782336182" title="repeated asian games unless asian games &amp; world championship is a different thing"/>
-		<label t="59.2804796182" t1="59.6764856182" title="plosive"/>
-		<label t="62.4344894436" t1="67.9401685091" title="super excited"/>
-		<label t="64.6264586182" t1="65.1841226182" title="plosives"/>
+		<label t="57.9500541809" t1="58.3460601809" title="plosive"/>
+		<label t="59.4209536994" t1="64.1834403341" title="super excited"/>
+		<label t="61.6129228740" t1="62.1705868740" title="plosives"/>
 	</labeltrack>
 	<wavetrack name="Intro_lvl+NR" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="7.99600907" colorindex="0">
@@ -60,10 +57,10 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="68.04400119" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="171801">
+		<waveclip offset="64.18344033" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="160781">
 				<waveblock start="0">
-					<simpleblockfile filename="e0000b3f.au" len="171801" min="-0.615737" max="0.79114" rms="0.088737"/>
+					<simpleblockfile filename="e0000e4b.au" len="160781" min="-0.615737" max="0.79114" rms="0.091728"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -71,7 +68,7 @@
 	</wavetrack>
 	<labeltrack name="Label Track" numlabels="2" height="73" minimized="0" isSelected="0">
 		<label t="7.8766629302" t1="31.2744217687" title="dipali intro"/>
-		<label t="68.0440011858" t1="71.9397154715" title="dipali&apos;s super excited to chat part"/>
+		<label t="64.1834403341" t1="67.8292738997" title="dipali&apos;s super excited to chat part"/>
 	</labeltrack>
 	<wavetrack name="Intros_NR.output" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
@@ -146,9 +143,9 @@
 			<envelope numpoints="7">
 				<controlpoint t="5.478316621674" val="1.000000000000"/>
 				<controlpoint t="7.636441351424" val="0.309859156609"/>
-				<controlpoint t="72.084619866770" val="0.309859156609"/>
-				<controlpoint t="73.700122024350" val="1.000000000000"/>
-				<controlpoint t="78.005057114411" val="1.000000000000"/>
+				<controlpoint t="68.262415913797" val="0.309859156609"/>
+				<controlpoint t="71.356157368926" val="1.000000000000"/>
+				<controlpoint t="76.824165522177" val="1.000000000000"/>
 				<controlpoint t="81.265618817044" val="0.183098614216"/>
 				<controlpoint t="91.172899244226" val="0.042253494263"/>
 			</envelope>
