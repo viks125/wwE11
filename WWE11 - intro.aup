@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="WWE11 - intro_data" version="1.3.0" audacityversion="2.2.2" sel0="17.7607920068" sel1="17.7607920068" vpos="128" h="0.0000000000" zoom="6.1371137029" rate="44100.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="WWE11 - intro_data" version="1.3.0" audacityversion="2.2.2" sel0="64.1834403300" sel1="67.8292738997" vpos="48" h="43.0499035189" zoom="11.8044210507" rate="44100.0" snapto="off" selectionformat="hh:mm:ss" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Vineet" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="31.34335601" colorindex="0">
@@ -27,15 +27,6 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="7" height="73" minimized="0" isSelected="0">
-		<label t="31.3433560091" t1="64.1834403341" title="intro remarks"/>
-		<label t="44.6743676182" t1="45.3237526182" title="lag"/>
-		<label t="45.2498296182" t1="47.1375766182" title="speed up"/>
-		<label t="51.7387486182" t1="52.3782336182" title="repeated asian games unless asian games &amp; world championship is a different thing"/>
-		<label t="57.9500541809" t1="58.3460601809" title="plosive"/>
-		<label t="59.4209536994" t1="64.1834403341" title="super excited"/>
-		<label t="61.6129228740" t1="62.1705868740" title="plosives"/>
-	</labeltrack>
 	<wavetrack name="Intro_lvl+NR" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="7.99600907" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="1029618">
@@ -66,11 +57,7 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="2" height="73" minimized="0" isSelected="0">
-		<label t="7.8766629302" t1="31.2744217687" title="dipali intro"/>
-		<label t="64.1834403341" t1="67.8292738997" title="dipali&apos;s super excited to chat part"/>
-	</labeltrack>
-	<wavetrack name="Intros_NR.output" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="Intros_NR.output" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.707946" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="4020725">
 				<waveblock start="0">
@@ -151,4 +138,15 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
+	<labeltrack name="Label Track" numlabels="9" height="73" minimized="0" isSelected="1">
+		<label t="7.9960090700" t1="31.3433560091" title="dipali&apos;s intro"/>
+		<label t="31.3433560091" t1="64.1834403341" title="intro remarks"/>
+		<label t="44.6743676182" t1="45.3237526182" title="lag"/>
+		<label t="45.2498296182" t1="47.1375766182" title="speed up"/>
+		<label t="51.7387486182" t1="52.3782336182" title="repeated asian games unless asian games &amp; world championship is a different thing"/>
+		<label t="57.9500541809" t1="58.3460601809" title="plosive"/>
+		<label t="59.4209536994" t1="64.1834403341" title="super excited"/>
+		<label t="61.6129228740" t1="62.1705868740" title="plosives"/>
+		<label t="64.1834403300" t1="67.8292738997" title="dipali&apos;s super excited to chat part"/>
+	</labeltrack>
 </project>
